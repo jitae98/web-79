@@ -1,7 +1,8 @@
 //1.
+import http from "http";
+import express from "express";
+import { users } from "./data.js";
 
-const express = require("express");
-const users = require("./data");
 const app = express();
 const port = 3000;
 

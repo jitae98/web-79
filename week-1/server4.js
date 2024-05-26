@@ -1,6 +1,8 @@
-const express = require("express");
-const { v4: uuidv4 } = require("uuid");
-const { users, posts } = require("./server/data");
+import http from "http";
+import express from "express";
+import { v4 as uuidv4 } from "uuid";
+import { users, posts } from "./data.js";
+
 const app = express();
 const port = 3000;
 
